@@ -17,8 +17,15 @@
 		"php": ">=5.3.3",
 		"composer/installers": "^1.0",
 		"laravel/framework": "~5.0",
-		"zendframework/zend-diactoros": "~1.0"
+		"zendframework/zend-diactoros": "~1.0",
+		"aimeos/aimeos-core": "dev-onward"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url":  "git@github.com:onward-web/aimeos-core.git"
+		}
+	],
 	"autoload": {
 		"psr-4": {
 			"Aimeos\\MW\\": "lib/custom/src/MW"
